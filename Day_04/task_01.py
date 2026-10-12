@@ -5,4 +5,3 @@ temp = eval(input("Enter the temperature :"))
 if temp > 35:
     print("It is a hot day")
 print("Have a nice day")
-

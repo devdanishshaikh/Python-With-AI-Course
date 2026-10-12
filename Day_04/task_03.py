@@ -3,4 +3,5 @@
 num = int(input("Enter your Number :"))
 print("Entered Number :",num)
 if num < 0:
-    print("Converted Number ",-1 *(num))
+    num = -num
+    print("Converted Number ",num)
