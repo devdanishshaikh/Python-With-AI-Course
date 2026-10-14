@@ -7,11 +7,20 @@ print(f"{data_used} GB")
 
 if designation == "Yes":
     if data_used > 0 and data_used <=5:
-        print(f"RS {500*(10/100)}")
+        discount = 500 *(10/100)
+        price = 500 - discount
+        print(f"Discount  RS {discount}")
+        print(f"Price  RS {price}")
     elif data_used >5 and data_used <=20:
-        print(f"RS {1200*(10/100)}")
+        discount = 1200 *(10/100)
+        price = 1200 - discount
+        print(f"Discount  RS {discount}")
+        print(f"Price  RS {price}")
     else:
-        print(f"RS {2000*(10/100)}")
+        discount = 2000 *(10/100)
+        price = 2000 - discount
+        print(f"Discount  RS {discount}")
+        print(f"Price  RS {price}")
 
 else:
   if data_used > 0 and data_used <=5:
