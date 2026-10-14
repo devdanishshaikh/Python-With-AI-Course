@@ -1,0 +1,11 @@
+name = input("Enter your name    : ")
+city = input("Enter your city    : ")
+course = input("Enter your course: ")
+date = input("Enter the date     : ")
+#using sep 
+print("==============================", sep="\n")
+print("Name    : \t" +  name, sep="\n")
+print("City    : \t" + city, sep="\n")
+print("Course  : \t" + course, sep="\n")
+print("Date    : \t" + date, sep="\n")
+print("==============================")
