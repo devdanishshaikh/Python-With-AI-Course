@@ -14,9 +14,7 @@ Menu = int(input("Enter Category : "))
 
 if Menu == 1:
     print("---------------Fast food---------------------")
-    item_1 = "Burger"
-    item_2 = "Pizza"
-    item_3 = "Fries"
+    
     Burger = 500
     Pizza  = 1200
     Fries  = 300
@@ -25,21 +23,22 @@ if Menu == 1:
     print(f"3. Fries      RS. {Fries}")
     item =int(input("Enter Item :"))
     if item == 1:
+        item_name = "Burger"
         print("You have Selected :Burger")
         print(f"Price : RS .{Burger}")
     elif item == 2:
+        item_name = "Pizza"
         print("You have Selected :Pizza")
         print(f"Price : RS .{Pizza}")
     elif item == 3:
+        item_name = "Fries"
         print("You have Selected :Fries")
         print(f"Price : RS .{Fries}")
     else:
         print("Invalid item")
 elif Menu == 2:
     print("---------------Pakistani food---------------------")
-    item_1 = "Biryani"
-    item_2 = "Karahi"
-    item_3 = "Nihari"
+    
     Biryani = 500
     Karahi  = 1200
     Nihari  = 300
@@ -48,12 +47,15 @@ elif Menu == 2:
     print(f"3. Nihari      RS. {Nihari}")
     item =int(input("Enter Item :"))
     if item == 1:
+        item_name = "Biryani"
         print("You have Selected :Biryani")
         print(f"Price : RS .{Biryani}")
     elif item == 2:
+        item_name = "Karahi"
         print("You have Selected :Karahi")
         print(f"Price : RS .{Karahi}")
     elif item == 3:
+        item_name = "Nihari"
         print("You have Selected :Nihari")
         print(f"Price : RS .{Nihari}")
     else:
@@ -61,9 +63,7 @@ elif Menu == 2:
 
 elif Menu == 3:
     print("---------------Cold Drinks food---------------------")
-    item_1 = "Coke"
-    item_2 = "Pepsi"
-    item_3 = "Water"
+    
     Coke = 150
     Pepsi  = 150
     water  = 80
@@ -72,12 +72,15 @@ elif Menu == 3:
     print(f"3. Water      RS. {water}")
     item =int(input("Enter Item :"))
     if item == 1:
+        item_name = "Coke"
         print("You have Selected :Coke")
         print(f"Price : RS .{Coke}")
     elif item == 2:
+        item_name = "Pepsi"
         print("You have Selected :Pepsi")
         print(f"Price : RS .{Pepsi}")
     elif item == 3:
+        item_name = "Water"
         print("You have Selected :Water")
         print(f"Price : RS .{water}")
     else:
@@ -176,8 +179,10 @@ print("\t\t\tFiINAL BILL")
 print("============================================================")
 
 print(f"Customer Name        : {customer_name}")
+print(f"Item Name            : {item_name}")
 print(f"Item Price           : RS. {price}")
 print(f"Quantity             : {quantity}")
+print()
 print(f"Sub Total            : RS. {Sub_price}")
 print(f"Discount             : RS. {discount}")
 print(f"Service Charge       : RS. {service_charge}")
