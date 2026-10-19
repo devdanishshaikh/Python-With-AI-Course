@@ -1,7 +1,7 @@
-word ="Python"
+word = input("Enter the Sentence :")
+
 reversed = " "
 
 for i in word:
-  reversed= i + reversed 
-
+  reversed=  i  + reversed 
 print("Reversed :",reversed)

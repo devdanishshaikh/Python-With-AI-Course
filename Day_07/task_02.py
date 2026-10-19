@@ -1,7 +1,7 @@
 word = input("Enter the Sentence :")
 count=0
 for i in word:
-  if i in "AEIOU" or i in "aeiou":
+  if i in "AEIOUaeiou":
       count = count + 1
 
-print(count)
+print("Total Vowel In word :", count)
