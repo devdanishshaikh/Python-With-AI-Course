@@ -1,6 +1,8 @@
 import numpy as np
 
-arr=np.array([11,20,3,41,15])
-print(np.sum(arr))
-print(np.mean(arr))
-print(np.sort(arr))
+arr =np.array([1,2,3,4,5,6,7,8,9])
+print(arr)
+print(np.ndim(arr))
+print(np.shape(arr))
+print(np.size(arr))
+print(type(arr))
